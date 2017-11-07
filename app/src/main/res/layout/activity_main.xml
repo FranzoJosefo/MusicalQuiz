@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainParent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearViewGroup">
+
+        <TextView
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text = "What does CACA means in spanish?"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/poop_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Poop." />
+
+            <RadioButton
+                android:id="@+id/yo_mama_w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yo mama."/>
+            <RadioButton
+                android:id="@+id/tiny_org_w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiny Orangutan."/>
+            <RadioButton
+                android:id="@+id/virgin_w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A 40 years old virgin man."/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text = "Who of the following never uses the same underwear twice?"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/paco_w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paco de Lucia."/>
+            <RadioButton
+                android:id="@+id/chambers_w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dennis Chambers."/>
+            <RadioButton
+                android:id="@+id/belew_w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adrian Belew."/>
+            <RadioButton
+                android:id="@+id/j_biever_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Justin Biever."/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text = "Who works at Solstice?"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/roberto_w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roberto."/>
+            <RadioButton
+                android:id="@+id/chicho_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chicho."/>
+            <RadioButton
+                android:id="@+id/florV_w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flor of the V."/>
+            <RadioButton
+                android:id="@+id/thompson_w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thompson."/>
+
+        </RadioGroup>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text = "Who is a Star Wars character?"/>
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/bobafett_c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Boba Fett."/>
+                        <RadioButton
+                            android:id="@+id/AnaInes_w"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ana Ines."/>
+                        <RadioButton
+                            android:id="@+id/iorio_w"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ricardo Iorio."/>
+                        <RadioButton
+                            android:id="@+id/sifripi_w"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sifripio."/>
+
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text = "Who wasn't president in Argentina?"/>
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/menem_w"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Menem."/>
+                        <RadioButton
+                            android:id="@+id/Frondizi_w"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Frondizi."/>
+                        <RadioButton
+                            android:id="@+id/Vanger_c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Vanger."/>
+                        <RadioButton
+                            android:id="@+id/Ongania_w"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ongania."/>
+
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text = "Which is not a variable type?"/>
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/int_w"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Int."/>
+                        <RadioButton
+                            android:id="@+id/ent_c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ent."/>
+                        <RadioButton
+                            android:id="@+id/long_w"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="long."/>
+                        <RadioButton
+                            android:id="@+id/char_w"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="char."/>
+
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SUBMIT RESULTS"
+                android:onClick="submitResults"/>
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="RESET"
+                android:onClick="resetApp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/results"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text=""/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
