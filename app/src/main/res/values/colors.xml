@@ -2,11 +2,12 @@
 <resources>
     <color name="colorPrimary">#000000</color>
     <color name="colorPrimaryDark">#ffffff</color>
-    <color name="colorAccent">#9a8750</color>
+    <color name="colorAccent">#f4e5b8</color>
     <color name="cardViewBackground">#37c6ae98</color>
     <color name="accent_material_dark_1">#474338</color>
     <color name="foreground_material_dark">#b1ada7</color>
     <color name="background_material_dark">#bb2424</color>
+    <color name="accent_material_light_1">#000000</color>
 </resources>
 
 

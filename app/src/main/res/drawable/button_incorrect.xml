@@ -1,87 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
-        <shape>
-            <padding
-                android:left="1dp"
-                android:top="1dp"
-                android:right="1dp"
-                android:bottom="1dp">
-            </padding>
-        </shape>
+        <layer-list>
+            <item android:left="3dp" android:top="3dp">
+                <shape>
+                    <corners android:radius="40dp" />
+                    <solid android:color="#559c2426" />
+                </shape>
+            </item>
+            <item android:bottom="1dp" android:right="1dp">
+                <shape>
+                    <gradient android:angle="270"
+                        android:endColor="#b351090c" android:startColor="#cad9212f" />
+                    <stroke android:width="1dp" android:color="#0a0a0a" />
+                    <corners android:radius="40dp" />
+                    <padding android:bottom="10dp" android:left="10dp"
+                        android:right="10dp" android:top="10dp" />
+                </shape>
+            </item>
+        </layer-list>
     </item>
-    <item>
-        <!-- Shape rounded with border -->
-        <shape xmlns:android="http://schemas.android.com/apk/res/android"
-            android:shape="rectangle">
-
-            // The width and color of the border
-            <stroke
-                android:width="1dp"
-                android:color="#000000" />
-            <solid
-                android:color="#ff0008"
-                />
-
-            // The desired corner radius. reduce it to keep it less rounded
-            <corners android:radius="45dp" />
-
-            // Add your desired padding
-
-        </shape>
-    </item>
-    <item>
-        <shape android:shape="rectangle" >
-            <gradient
-                android:angle="-360"
-                android:centerX="0.9"
-                android:centerColor="#00bfbfbf"
-                android:endColor="#00000000"
-                android:startColor="#8e945358" />
-            <corners android:radius="45dp" />
-        </shape>
-    </item>
-
-
-    <!-- over right shadow -->
-    <item>
-        <shape android:shape="rectangle" >
-            <gradient
-                android:angle="180"
-                android:centerX="0.9"
-                android:centerColor="#00bfbfbf"
-                android:endColor="#00000000"
-                android:startColor="#8ea34c50" />
-            <corners android:radius="45dp" />
-        </shape>
-    </item>
-    <!-- over top shadow -->
-    <item>
-        <shape android:shape="rectangle" >
-            <gradient
-                android:angle="-90"
-                android:centerY="0.9"
-                android:centerColor="#00bfbfbf"
-                android:endColor="#00000000"
-                android:startColor="#8d1d120a"
-                android:type="linear" />
-
-            <corners android:radius="45dp" />
-        </shape>
-    </item>
-    <!-- over bottom shadow -->
-    <item>
-        <shape android:shape="rectangle" >
-            <gradient
-                android:angle="90"
-
-                android:centerY="0.9"
-                android:centerColor="#00bfbfbf"
-                android:endColor="#00000000"
-                android:startColor="#9e000000"
-                android:type="linear" />
-
-            <corners android:radius="45dp" />
-        </shape>
-    </item>
-</layer-list>
+</selector>
