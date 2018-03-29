@@ -60,15 +60,9 @@
                     android:text="Which of the following has Strings?" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="6dp"
-                    android:fontFamily="cursive"
-                    android:text="Select all correct Answers"
-                    android:textColor="#000000"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:id="@+id/hintMessageView"
+                    style="@style/hintMessage"
+                    android:text="Select all correct Answers" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -116,8 +110,6 @@
                 </LinearLayout>
 
 
-
-
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
@@ -162,6 +154,11 @@
                         style="@style/radioButtons"
                         android:text="Mercury" />
 
+                    <RadioButton
+                        android:id="@+id/bondsworth_w"
+                        style="@style/radioButtons"
+                        android:text="Bondsworth" />
+
                 </RadioGroup>
             </LinearLayout>
 
@@ -193,11 +190,6 @@
                         android:text="Variation XI (G.R.S.)" />
 
                     <RadioButton
-                        android:id="@+id/variationI_w"
-                        style="@style/radioButtons"
-                        android:text="Variation I (C.A.E.)" />
-
-                    <RadioButton
                         android:id="@+id/variationXXI_w"
                         style="@style/radioButtons"
                         android:text="Variation XII (B.G.N.)" />
@@ -208,6 +200,85 @@
                         android:text="Variation IX (Nimrod)" />
 
                 </RadioGroup>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            style="@style/cardViewStyle"
+            card_view:cardBackgroundColor="@color/cardViewBackground"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cardview_background"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/questionsStyle"
+                    android:text="Who of the following are Guitar Players?" />
+
+                <TextView
+                    style="@style/hintMessage"
+                    android:text="Select all correct Answers" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout style="@style/LinearLayoutCheckBoxes">
+
+                        <CheckBox
+                            android:id="@+id/guthrie_c"
+                            style="@style/checkBoxStyle"
+                            android:text="Guthrie Govan" />
+
+                        <CheckBox
+                            android:id="@+id/vinnie_w"
+                            style="@style/checkBoxStyle"
+                            android:text="Vinnie Colaiuta" />
+
+                        <CheckBox
+                            android:id="@+id/menza_w"
+                            style="@style/checkBoxStyle"
+                            android:text="Nick Menza" />
+
+                        <CheckBox
+                            android:id="@+id/spinetta_c"
+                            style="@style/checkBoxStyle"
+                            android:text="Luis Alberto Spinetta" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/LinearLayoutCheckBoxes">
+
+                        <CheckBox
+                            android:id="@+id/paco_c"
+                            style="@style/checkBoxStyle"
+                            android:text="Paco de Lucia" />
+
+                        <CheckBox
+                            android:id="@+id/ponty_w"
+                            style="@style/checkBoxStyle"
+                            android:text="Jean Luc Ponty" />
+
+                        <CheckBox
+                            android:id="@+id/malsteem_c"
+                            style="@style/checkBoxStyle"
+                            android:text="Yngwee Malsteem" />
+
+                        <CheckBox
+                            android:id="@+id/giardino_c"
+                            style="@style/checkBoxStyle"
+                            android:text="Walter Giardino" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
@@ -252,6 +323,16 @@
                         android:id="@+id/cirencester_w"
                         style="@style/radioButtons"
                         android:text="Cirencester" />
+
+                    <RadioButton
+                        android:id="@+id/raminghal_w"
+                        style="@style/radioButtons"
+                        android:text="Raminghal" />
+
+                    <RadioButton
+                        android:id="@+id/Brookesfield_w"
+                        style="@style/radioButtons"
+                        android:text="Brookesfield" />
 
                 </RadioGroup>
             </LinearLayout>
