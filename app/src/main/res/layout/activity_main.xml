@@ -42,6 +42,7 @@
             </LinearLayout>
         </android.support.v7.widget.CardView>
 
+
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
             style="@style/cardViewStyle"
             card_view:cardBackgroundColor="@color/cardViewBackground"
@@ -66,10 +67,10 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:orientation="horizontal">
 
-                    <LinearLayout style="@style/LinearLayoutCheckBoxes">
+                    <LinearLayout style="@style/horizontalLayoutCheckBoxes">
 
                         <CheckBox
                             android:id="@+id/guitar_c"
@@ -88,7 +89,7 @@
 
                     </LinearLayout>
 
-                    <LinearLayout style="@style/LinearLayoutCheckBoxes">
+                    <LinearLayout style="@style/horizontalLayoutCheckBoxes">
 
                         <CheckBox
                             android:id="@+id/piano_c"
@@ -229,7 +230,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <LinearLayout style="@style/LinearLayoutCheckBoxes">
+                    <LinearLayout style="@style/horizontalLayoutCheckBoxes">
 
                         <CheckBox
                             android:id="@+id/guthrie_c"
@@ -247,13 +248,13 @@
                             android:text="Nick Menza" />
 
                         <CheckBox
-                            android:id="@+id/spinetta_c"
+                            android:id="@+id/petrucci_c"
                             style="@style/checkBoxStyle"
-                            android:text="Luis Alberto Spinetta" />
+                            android:text="John Petrucci" />
 
                     </LinearLayout>
 
-                    <LinearLayout style="@style/LinearLayoutCheckBoxes">
+                    <LinearLayout style="@style/horizontalLayoutCheckBoxes">
 
                         <CheckBox
                             android:id="@+id/paco_c"
@@ -443,96 +444,6 @@
 
                 <TextView
                     style="@style/questionsStyle"
-                    android:text="What is the name given to the lower register of the clarinet's playing range?" />
-
-                <RadioGroup
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <RadioButton
-                        android:id="@+id/chalumeau_c"
-                        style="@style/radioButtons"
-                        android:text="Chalumeau" />
-
-                    <RadioButton
-                        android:id="@+id/thalumeau_w"
-                        style="@style/radioButtons"
-                        android:text="Thalumeau" />
-
-                    <RadioButton
-                        android:id="@+id/shalumeau_w"
-                        style="@style/radioButtons"
-                        android:text="Shalumeau" />
-
-                    <RadioButton
-                        android:id="@+id/shalamar_w"
-                        style="@style/radioButtons"
-                        android:text="Shalamar" />
-
-                </RadioGroup>
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            style="@style/cardViewStyle"
-            card_view:cardBackgroundColor="@color/cardViewBackground"
-            card_view:cardCornerRadius="8dp"
-            card_view:cardElevation="2dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/cardview_background"
-                android:orientation="vertical">
-
-                <TextView
-                    style="@style/questionsStyle"
-                    android:text="What did Benjamin Britten use to simulate raindrops in his opera for amateur musicians, Noye's Fludd?" />
-
-                <RadioGroup
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <RadioButton
-                        android:id="@+id/pipettes_w"
-                        style="@style/radioButtons"
-                        android:text="Pipettes and buckets" />
-
-                    <RadioButton
-                        android:id="@+id/emptyBaked_w"
-                        style="@style/radioButtons"
-                        android:text="Empty baked beans tins" />
-
-                    <RadioButton
-                        android:id="@+id/teacups_c"
-                        style="@style/radioButtons"
-                        android:text="Teacups on a string" />
-
-                    <RadioButton
-                        android:id="@+id/typewriter_w"
-                        style="@style/radioButtons"
-                        android:text="A typewriter" />
-
-                </RadioGroup>
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            style="@style/cardViewStyle"
-            card_view:cardBackgroundColor="@color/cardViewBackground"
-            card_view:cardCornerRadius="8dp"
-            card_view:cardElevation="2dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/cardview_background"
-                android:orientation="vertical">
-
-                <TextView
-                    style="@style/questionsStyle"
                     android:text="Who wrote a piece called the 'Skittle Alley Trio'?" />
 
                 <RadioGroup
@@ -558,51 +469,6 @@
                         android:id="@+id/dvorak_w"
                         style="@style/radioButtons"
                         android:text="Antonin Dvorak" />
-
-                </RadioGroup>
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            style="@style/cardViewStyle"
-            card_view:cardBackgroundColor="@color/cardViewBackground"
-            card_view:cardCornerRadius="8dp"
-            card_view:cardElevation="2dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/cardview_background"
-                android:orientation="vertical">
-
-                <TextView
-                    style="@style/questionsStyle"
-                    android:text="In French opera houses, what job does the Souffler have?" />
-
-                <RadioGroup
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <RadioButton
-                        android:id="@+id/applause_w"
-                        style="@style/radioButtons"
-                        android:text="To encourage applause" />
-
-                    <RadioButton
-                        android:id="@+id/prompter_w"
-                        style="@style/radioButtons"
-                        android:text="Prompter" />
-
-                    <RadioButton
-                        android:id="@+id/firstAid_c"
-                        style="@style/radioButtons"
-                        android:text="First aider" />
-
-                    <RadioButton
-                        android:id="@+id/dessert_w"
-                        style="@style/radioButtons"
-                        android:text="Dessert chef" />
 
                 </RadioGroup>
             </LinearLayout>
@@ -650,6 +516,58 @@
                         android:text="Daniel" />
 
                 </RadioGroup>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            style="@style/cardViewStyle"
+            card_view:cardBackgroundColor="@color/cardViewBackground"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cardview_background"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/questionsStyle"
+                    android:text="What is the first name of Wagner?" />
+
+                <EditText
+                    android:id="@+id/richardwagner"
+                    style="@style/edittext"
+                    android:onClick="setTextBox"
+                    android:text="Enter Answer Here" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            style="@style/cardViewStyle"
+            card_view:cardBackgroundColor="@color/cardViewBackground"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cardview_background"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/questionsStyle"
+                    android:text="What is the name given to the lower register of the clarinet's playing range?" />
+
+                <EditText
+                    android:id="@+id/chalumeau"
+                    style="@style/edittext"
+                    android:onClick="setTextBox"
+                    android:text="Enter Answer Here" />
+
             </LinearLayout>
 
         </android.support.v7.widget.CardView>

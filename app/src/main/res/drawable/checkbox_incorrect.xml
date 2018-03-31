@@ -7,7 +7,7 @@
                     <solid android:color="#559c2426" />
                 </shape>
             </item>
-            <item android:bottom="2dp" android:right="2dp">
+            <item android:bottom="0dp" android:right="0dp">
                 <shape>
                     <gradient android:angle="270"
                         android:endColor="#b351090c" android:startColor="#cad9212f" />
