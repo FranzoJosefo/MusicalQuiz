@@ -184,6 +184,7 @@ public class MainActivity extends AppCompatActivity {
                         currentCheckBoxView.setBackgroundResource(R.drawable.checkbox_correct);
                     } else {
                         currentCheckBoxView.setBackgroundResource(R.drawable.checkbox_incorrect);
+                        allAnsweredCorrectly = false;
                     }
                 } else {
                     if (currentCheckBoxID.substring(currentCheckBoxID.length() - 1).equals("c")) {
